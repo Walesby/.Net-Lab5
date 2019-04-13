@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Problem4.Interface
 {
+    /// <summary>
+    /// Interface that all Auctioneers will implement
+    /// </summary>
     public interface IAuctioneer
     {
         void AddObserver(AuctionBidder observer);

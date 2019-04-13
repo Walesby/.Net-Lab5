@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Problem4.Interface
 {
+    /// <summary>
+    /// Interface that all AuctionBidder will implement
+    /// </summary>
     public interface IAuctionBidder
     {
         void Subscribe();
